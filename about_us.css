@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-image: url('travel.jpg'); /* Replace with the actual path to your image */
+  background-size: cover; /* Ensures the image covers the entire header */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 300px; /* Set a height for the header */
+  color: white; /* Optional: Make text white for contrast */
+  display: flex; /* Center text vertically */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  text-align: center; /* Center text */
+}
+
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2a3b47; /* Dark background */
+  padding: 10px 20px;
+  
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.navbar .logo img {
+  width: 30px;
+  margin-right: 10px;
+}
+.navbar .menu {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbar .menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar .menu a:hover {
+  text-decoration: underline;
+}
+.navbar .search-bar {
+  display: flex;
+  align-items: center;
+}
+.navbar .search-bar input {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.navbar .search-bar button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.navbar .search-bar button.clear {
+  background-color: #6c757d;
+}
+.navbar .search-bar button:hover {
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+
+.hero .social-media {
+  position: absolute;
+  top: 20%;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 200px;
+  
+}
+
+.hero .social-media img{
+width: 50px; /* Adjust the size */
+height: auto; /* Maintain aspect ratio */
+left: 10px;
+border-radius: 80%;
+
+}
+.hero .social-media .icon {
+color: white;
+text-decoration: none;
+font-size: 16px;
+padding: 10px;
+border-radius: 50%;
+background-color: rgba(0, 0, 0, 0.5);
+text-align: center;
+width: 50px;
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.hero-content {
+margin-top: 10px;
+position: relative;
+text-align: left;
+margin-left: -20px; /* Adjust to move content left */
+text-align: left; /* Align text to the left */
+position: relative; /* Required for 'left' adjustments */
+left: -300px; /* Moves the block 10px left */
+color: #2a3b47;
+}
+
+.hero-content .teams{
+  display: flex;
+  color: #2a3b47;
+  margin-left: 0px;
+  text-align: left; /* Align text to the left */
+  position: relative; /* Required for 'left' adjustments */
+  left: 100px; /* Moves the block 10px left */
+}
+
+.hero-content .teams button{
+  display: flex;
+  margin-left: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-content .teams h1{
+  padding: 5px 10px;
+  margin-left: 150px;
+}
+
+.hero-content .teams .team_member{
+  padding: 15px 15px;
+  padding-left: 100;
+  margin-right: 15px;
+}
+
+.main-title {
+font-size: 50px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 20px;
+line-height: 1.2;
+}
+
+.description {
+font-size: 18px;
+max-width: 600px;
+margin: 20px auto;
+color: #ddd;
+}
+
+.btn {
+background-color: #007bff;
+color: white;
+padding: 10px 20px;
+border: none;
+font-size: 18px;
+cursor: pointer;
+border-radius: 5px;
+margin-top: 20px;
+}
+
+.btn:hover {
+background-color: #0056b3;
+}
+
+.search-container {
+position: absolute;
+bottom: 30px;
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+gap: 10px;
+}
+
+.search-container input {
+padding: 10px;
+font-size: 16px;
+width: 300px;
+border: none;
+border-radius: 5px;
+}
+
+.search-btn {
+padding: 10px 20px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+backgroun
+}
+
+.social-media .icon img {
+  width: 60px; /* Set the desired width */
+  height: 60px; /* Set the desired height */
+  object-fit: contain; /* Ensures the image maintains its aspect ratio */
+}

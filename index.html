@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom Navbar</title>
+    <link rel="stylesheet" href="index.css">  <!--Link to the external CSS file -->
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="airplane-logo.png" alt="TravelBloom Logo">
+            Travel Bloom
+        </div>
+        <div class="menu">
+            <a href="./index.html" id="home">Home</a>
+            <a href="./about_us.html" id="about-us">About Us</a>
+            <a href="./contact_us.html" id="contact-us">Contact Us</a>
+        </div>
+        <div class="search-bar">
+            <input id="search_bar" type="text" placeholder="Enter a destination or keyword">
+            <button id="search_button" onclick="searchCondition()">Search</button>
+            <button class="clear" onclick="clear_but()">Clear</button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="social-media">
+            <a href="#" class="icon-twitter" id="twitter">
+                <img id="img-twitter" src="twitter.png" alt="Twitter">
+            </a>
+            <a href="#" class="icon-facebook" id="facebook">
+                <img id="img-fb" src="fb.png" alt="Twitter">
+            </a>
+            <a href="#" class="icon-instagram" id="instagram">
+                <img id="img-insta" src="instagram.png" alt="Twitter">
+            </a>
+            <a href="#" class="icon-youtube" id="youtube">
+                <img id="img-youtube" src="youtube.png" alt="Twitter">
+            </a>
+        </div>
+        <div class="hero-content">
+            <h1 class="main-title">EXPLORE<br>DREAM<br>DESTINATION</h1>
+            <p class="description">
+            It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
+            </p>
+            <button class="btn">Book Now</button>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Enter a destination or keyword">
+            <button class="search-btn">Search</button>
+        </div>
+        <div class="searchCondition">
+            <div id="result"></div>
+        </div>
+    </header>
+    </section>
+    <script src="./travel_recommendation.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
